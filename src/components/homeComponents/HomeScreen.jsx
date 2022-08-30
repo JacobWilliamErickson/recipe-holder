@@ -2,8 +2,8 @@ import React from 'react'
 import AdBanner from './AdBanner'
 import { useEffect } from 'react'
 import axios from 'axios'
+import RecipeContainer from './RecipeContainer'
 const HomeScreen = () => {  
-
   const getRecipes = () => {
     axios
         .get(`https://recipes.devmountain.com/recipes`)
@@ -19,7 +19,7 @@ getRecipes()
   return (
     <div>
       <AdBanner />
-      {/* Much code from Part 2 will be placed around here. Do your best! */}
+      <RecipeContainer/>
     </div>
   )
 }

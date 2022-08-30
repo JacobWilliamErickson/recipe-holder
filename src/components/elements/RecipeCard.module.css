@@ -1,0 +1,39 @@
+.name{
+
+}
+.box{
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+    justify-content: space-between;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.photobox{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+}
+.button{
+    height: 45px;
+    min-width: 125px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(180, 22%, 45%);
+  color: white;
+}
+.title{
+
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px 3px 0px 0px;
+}

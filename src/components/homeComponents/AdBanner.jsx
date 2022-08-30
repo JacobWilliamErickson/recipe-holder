@@ -5,16 +5,16 @@ import classes from './AdBanner.module.css'
 const AdBanner = () => {
   return (
     <div className={classes.banner}
-      style={{
-        background: `linear-gradient(
-          190deg,
-          rgba(0, 0, 0, 0.8),
-          rgba(0, 0, 0, 0.8)),
-          url(${salmon})`,
-        backgroundSize: "cover",
-      }}
+    style={{
+      background: `linear-gradient(
+        190deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)),
+        url(${salmon})`,
+      backgroundSize: "cover",
+    }}
     >
-      <div>
+      <div className={classes.text}>
         <h3>New Recipe</h3>
         <h1>Pineapple Salmon</h1>
         <h3>

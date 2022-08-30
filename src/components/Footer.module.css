@@ -17,7 +17,7 @@ flex-direction: column;
 justify-content: space-between;
 }
 .icons svg{
-    background-color: rgb(1, 121, 111);
+    background-color: hsl(180, 22%, 45%);
     margin: 5px;
     border-radius: 50px;
 }

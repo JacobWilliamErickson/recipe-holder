@@ -1,4 +1,35 @@
 .banner{
-    height: 70vh;
-    
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        color: white;
+        background-size: cover;
+      }
+.text{
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
 }
+h1 {
+    font-size: 64px;
+    color: rgb(236, 106, 46);
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .text button {
+    height: 45px;
+    min-width: 125px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(180, 22%, 45%);
+  color: white;
+  }
