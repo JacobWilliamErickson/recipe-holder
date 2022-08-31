@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import classes from './RecipeCard.module.css'
 const RecipeCards = ({recipe}) => {
+  const navigate = useNavigate()
+  const handleClick = () => {
+    navigate(`/recipe/${recipe.recipe_id}`)
+}
   return (
     <div className={classes.box}>
     <div>
@@ -10,7 +15,7 @@ const RecipeCards = ({recipe}) => {
       </div>
       <h3 className={classes.name}>{recipe.recipe_name}</h3>
     </div>
-    <button className={classes.button}>See More</button>
+    <button className={classes.button} onClick={handleClick} >See More</button>
   </div>
   )
 }
