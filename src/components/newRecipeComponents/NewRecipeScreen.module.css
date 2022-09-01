@@ -1,0 +1,84 @@
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+ padding: 20px;
+}
+.nameUrl,.timeServes{
+    display: flex;
+    margin: 10px;
+}
+.nameUrl input {
+    margin: 10px;
+    height: 30px;
+}
+.radio{
+    margin: 10px;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    color: black;
+}
+.radio span {
+    display: flex;
+
+}
+.radio h5{
+    color: black;
+}
+input[type=radio] {
+    transform: scale(2);
+    margin-right: 10px
+}
+.timeServes input{
+    margin: 5px;
+    height: 20px;
+    width: 105px;
+}
+.ingredients{
+    display: flex;
+    margin: 10px;
+}
+.ingredientsleft{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+.ingredientsleft input{
+    margin: 5px;
+    height: 20px;
+    width: 105px;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px
+}
+.footer textarea{
+ width: 100%;
+ font-size: large;
+ color: black;
+}
+.bluebtn{
+    margin: 5px;
+    height: 30px;
+    width: 95px;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(180, 22%, 45%);
+  color: whitesmoke;
+}
+.orangebtn{
+    margin: 5px;
+    height: 30px;
+    width: 95px;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(236, 106, 46);
+  color: whitesmoke;
+}

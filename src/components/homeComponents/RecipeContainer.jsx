@@ -27,9 +27,9 @@ const RecipeContainer = () => {
     getRecipes();
   }, []);
   return (
-    <section>
+    <section className={classes.recipe_section}>
       <h2>Search a recipe!</h2>
-      <span>
+      <span className={classes.search_bar}>
         <BiSearchAlt2 size="2em" color="#DA7635" />
         <input
           type="text"
@@ -38,7 +38,7 @@ const RecipeContainer = () => {
           placeholder="Search for a Recipe"
         />
       </span>
-      <div className={classes.sect}>
+      <div className={classes.recipe_container}>
         {recipeDisplay ? recipeDisplay : <h2>No Recipes :(</h2>}
       </div>
     </section>
