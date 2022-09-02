@@ -7,18 +7,53 @@ header{
     align-items: center;
 }
 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     float: right;
-    margin: 10px;
     margin-right: 20px;
 }
+button{
+    height: 50px;
+    width: 100%;
+
+}
 .navButton{
-    margin: 10px;
     background-color: rgb(236, 106, 46);
     border: none;
     font-size: large;
     color: whitesmoke;
 }
+.navButton:hover{
+    background-color: whitesmoke;
+    font-size: large;
+    color: rgb(236, 106, 46);
+}
 h2{
     margin: 10px;
     margin-left: 50px;
 }
+a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home a{
+    text-decoration: none;
+    color:white;
+
+}
+.home:link a { text-decoration: none; 
+    color:white;}
+
+
+.home:visited a{ text-decoration: none;
+color:white; }
+
+
+.home:hover a{ text-decoration: none; 
+    color:white;}
+
+
+.home:active a{ text-decoration: none;
+    color:white; }

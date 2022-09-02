@@ -3,8 +3,10 @@ import {Link} from "react-router-dom"
 import classes from './Header.module.css'
 const Header = () => {
   return (
-    <header>
+    <header className={classes.home}>
+          <Link to="">
       <h2>Devmountain Eatery</h2>
+      </Link>
       <nav>
     <Link to="">
         <button className={classes.navButton}>Home</button>
